@@ -2689,7 +2689,7 @@ webpackJsonp([0], {
 				"2xscope": {
 					name: "2x Scope",
 					type: "scope",
-					level: 2,
+					level: 8,
 					rad: 1,
 					lootImg: {
 						sprite: "img/loot/loot-scope-01.svg",
@@ -2705,7 +2705,7 @@ webpackJsonp([0], {
 				"4xscope": {
 					name: "4x Scope",
 					type: "scope",
-					level: 4,
+					level: 8,
 					rad: 1,
 					lootImg: {
 						sprite: "img/loot/loot-scope-02.svg",
@@ -2753,8 +2753,8 @@ webpackJsonp([0], {
 			},
 			scopeZoomRadius: {
 				"1xscope": 86,
-				"2xscope": 42,
-				"4xscope": 58,
+				"2xscope": 86,
+				"4xscope": 86,
 				"8xscope": 86,
 				"15xscope": 104
 			},
@@ -7285,7 +7285,7 @@ webpackJsonp([0], {
 				crate_01: b(),
 				crate_02: b({
 					health: 140,
-					loot: [r("tier_soviet", 3, 5)],
+					loot: [r("tier_throwables", 2, 4)],
 					map: {
 						display: !1
 					},
@@ -7323,7 +7323,7 @@ webpackJsonp([0], {
 				crate_04: b({
 					destructible: !1,
 					hitParticle: "greenChip",
-					loot: [],
+					loot: [r("tier_throwables", 2, 4)],
 					map: {
 						display: !1
 					},
@@ -7369,7 +7369,7 @@ webpackJsonp([0], {
 				}),
 				crate_07: b({
 					health: 140,
-					loot: [r("tier_surviv", 2, 3), s("ak47", 1), s("outfitKhaki", 1), s("outfitKhaki", 1), s("outfitKhaki", 1), s("outfitKhaki", 1)],
+					loot: [r("tier_throwables", 2, 4)],
 					img: {
 						sprite: "img/map/map-crate-07.svg"
 					},
@@ -7379,7 +7379,7 @@ webpackJsonp([0], {
 				}),
 				crate_08: b({
 					health: 140,
-					loot: [r("tier_surviv", 2, 3), s("outfitKhaki", 1)],
+					loot: [r("tier_throwables", 2, 4)],
 					map: {
 						display: !1
 					},
@@ -7398,44 +7398,44 @@ webpackJsonp([0], {
 					img: {
 						sprite: "img/map/map-deposit-box-01.svg"
 					},
-					loot: [r("tier_world", 1, 1)]
+					loot: [r("tier_throwables", 2, 4)],
 				}),
 				deposit_box_02: x({
 					explodeParticle: "depositBoxGoldFrag",
 					img: {
 						sprite: "img/map/map-deposit-box-02.svg"
 					},
-					loot: [r("tier_soviet", 2, 3)]
+					loot: [r("tier_throwables", 2, 4)],
 				}),
 				drawers_01: _({
 					img: {
 						sprite: "img/map/map-drawers-01.svg"
 					},
-					loot: [r("tier_container", 1, 1)]
+					loot: [r("tier_throwables", 2, 4)],
 				}),
 				drawers_02: _({
 					img: {
 						sprite: "img/map/map-drawers-02.svg"
 					},
-					loot: [r("tier_soviet", 2, 3)]
+					loot: [r("tier_throwables", 2, 4)],
 				}),
 				locker_01: w({
 					img: {
 						sprite: "img/map/map-locker-01.svg"
 					},
-					loot: [r("tier_world", 1, 1)]
+					loot: [r("tier_throwables", 2, 4)],
 				}),
 				locker_02: w({
 					img: {
 						sprite: "img/map/map-locker-02.svg"
 					},
-					loot: [r("tier_police", 1, 1)]
+					loot: [r("tier_throwables", 2, 4)],
 				}),
 				locker_03: w({
 					img: {
 						sprite: "img/map/map-locker-02.svg"
 					},
-					loot: [r("tier_surviv", 1, 1), s("outfitKhaki", 1)]
+					loot: [r("tier_throwables", 2, 4)],
 				}),
 				oven_01: {
 					type: "obstacle",
@@ -7454,7 +7454,7 @@ webpackJsonp([0], {
 					hitParticle: "barrelChip",
 					explodeParticle: "barrelFrag",
 					reflectBullets: !0,
-					loot: [],
+					loot: [r("tier_throwables", 2, 4)],
 					map: {
 						display: !1,
 						color: 6697728,
@@ -7494,7 +7494,7 @@ webpackJsonp([0], {
 					hitParticle: "redChip",
 					explodeParticle: "woodPlank",
 					reflectBullets: !0,
-					loot: [],
+					loot: [r("tier_throwables", 2, 4)],
 					map: {
 						display: !1,
 						color: 6697728,
@@ -7534,7 +7534,7 @@ webpackJsonp([0], {
 					hitParticle: "goldChip",
 					explodeParticle: "barrelFrag",
 					reflectBullets: !1,
-					loot: [],
+					loot: [r("tier_throwables", 2, 4)],
 					map: {
 						display: !1,
 						color: 16777215,
@@ -7648,7 +7648,7 @@ webpackJsonp([0], {
 					hitParticle: "woodChip",
 					explodeParticle: "woodPlank",
 					reflectBullets: !1,
-					loot: [r("tier_world", 1, 1)],
+					loot: [r("tier_throwables", 2, 4)],
 					map: {
 						display: !1,
 						color: 6697728,
@@ -7797,13 +7797,13 @@ webpackJsonp([0], {
 					img: {
 						sprite: "img/map/map-toilet-01.svg"
 					},
-					loot: [r("tier_toilet", 2, 3)]
+					loot: [r("tier_throwables", 2, 4)],
 				}),
 				toilet_02: M({
 					img: {
 						sprite: "img/map/map-toilet-02.svg"
 					},
-					loot: [r("tier_soviet", 3, 4)]
+					loot: [r("tier_throwables", 2, 4)],
 				}),
 				toilet_03: M({
 					reflectBullets: !0,
@@ -7813,7 +7813,7 @@ webpackJsonp([0], {
 						sprite: "img/map/map-toilet-03.svg",
 						residue: "img/map/map-toilet-res-02.svg"
 					},
-					loot: [r("tier_world", 1, 2)],
+					loot: [r("tier_throwables", 2, 4)],
 					sound: {
 						bullet: "toilet_metal_bullet",
 						punch: "toilet_metal_bullet",
@@ -7828,7 +7828,7 @@ webpackJsonp([0], {
 						sprite: "img/map/map-toilet-04.svg",
 						residue: "img/map/map-toilet-res-02.svg"
 					},
-					loot: [r("tier_soviet", 2, 3)],
+					loot: [r("tier_throwables", 2, 4)],
 					sound: {
 						bullet: "toilet_metal_bullet",
 						punch: "toilet_metal_bullet",
@@ -8007,7 +8007,7 @@ webpackJsonp([0], {
 					hitParticle: "blueChip",
 					explodeParticle: ["windowFrag", "lockerFrag"],
 					reflectBullets: !0,
-					loot: [r("tier_vending_soda", 1, 3), s("soda", 1)],
+					loot: [r("tier_throwables", 2, 4)],
 					map: {
 						display: !1,
 						color: 6697728,
