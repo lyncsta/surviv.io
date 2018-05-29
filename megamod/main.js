@@ -133,14 +133,14 @@ webpackJsonp([0], {
 			},
 			bullets: {
 				bullet_mp5: {
-					damage: 11,
+					damage: 15,
 					obstacleDamage: 1,
-					falloff: .8,
-					distance: 100,
-					speed: 85,
+					falloff: .85,
+					distance: 300,
+					speed: 200,
 					variance: 0,
 					shrapnel: !1,
-					tracerColor: "9mm",
+					tracerColor: "762mm",
 					tracerWidth: .1,
 					tracerLength: .8
 				},
@@ -817,20 +817,37 @@ webpackJsonp([0], {
 					reloadMode: "mag",
 					caseTiming: "shoot",
 					ammo: "9mm",
-					ammoSpawnCount: 90,
-					maxClip: 30,
-					maxReload: 30,
-					reloadTime: 2,
-					fireDelay: .09,
+					ammoSpawnCount: 99,
+					maxClip: 100,
+					maxReload: 100,
+					reloadTime: 1,
+					fireDelay: .03,
 					switchDelay: .75,
-					barrelLength: 2.625,
+					barrelLength: 2.5,
 					rad: 1.25,
 					recoilTime: 1e10,
-					moveSpread: 4,
-					shotSpread: 3,
+					moveSpread: 4.5,
+					shotSpread: 2.5,
 					bulletCount: 1,
-					bulletType: "bullet_mp5",
+					bulletType: "bullet_vector",
 					headshotMult: 2,
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 					speed: {
 						equip: 0,
 						attack: 0
@@ -2656,7 +2673,7 @@ webpackJsonp([0], {
 				"1xscope": {
 					name: "1x Scope",
 					type: "scope",
-					level: 1,
+					level: 8,
 					rad: 1,
 					lootImg: {
 						sprite: "img/loot/loot-scope-00.svg",
@@ -2735,7 +2752,7 @@ webpackJsonp([0], {
 				}
 			},
 			scopeZoomRadius: {
-				"1xscope": 32,
+				"1xscope": 86,
 				"2xscope": 42,
 				"4xscope": 58,
 				"8xscope": 86,
