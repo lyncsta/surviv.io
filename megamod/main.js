@@ -134,15 +134,15 @@ webpackJsonp([0], {
 			bullets: {
 				bullet_mp5: {
 					damage: 15,
-					obstacleDamage: 1,
-					falloff: .85,
+					obstacleDamage: 3,
+					falloff: .95,
 					distance: 300,
-					speed: 200,
+					speed: 500,
 					variance: 0,
 					shrapnel: !1,
 					tracerColor: "762mm",
-					tracerWidth: .1,
-					tracerLength: .8
+					tracerWidth: .3,
+					tracerLength: .15
 				},
 				bullet_ak47: {
 					damage: 13.5,
@@ -820,16 +820,16 @@ webpackJsonp([0], {
 					ammoSpawnCount: 99,
 					maxClip: 100,
 					maxReload: 100,
-					reloadTime: 1,
-					fireDelay: .03,
-					switchDelay: .75,
-					barrelLength: 2.5,
+					reloadTime: 0,
+					fireDelay: .01,
+					switchDelay: .01,
+					barrelLength: 5.5,
 					rad: 1.25,
 					recoilTime: 1e10,
-					moveSpread: 4.5,
-					shotSpread: 2.5,
+					moveSpread: 1.5,
+					shotSpread: 1.5,
 					bulletCount: 1,
-					bulletType: "bullet_vector",
+					bulletType: "bullet_mp5",
 					headshotMult: 2,
 					
 					
@@ -2415,9 +2415,9 @@ webpackJsonp([0], {
 				bandage: {
 					name: "Bandage",
 					type: "heal",
-					useTime: 2.75,
-					heal: 15,
-					maxHeal: 75,
+					useTime: 1.75,
+					heal: 200,
+					maxHeal: 200,
 					rad: 1,
 					lootImg: {
 						sprite: "img/loot/loot-medical-bandage.svg",
@@ -2434,7 +2434,7 @@ webpackJsonp([0], {
 				healthkit: {
 					name: "Med Kit",
 					type: "heal",
-					useTime: 6,
+					useTime: 1,
 					heal: 100,
 					maxHeal: 100,
 					rad: 1,
@@ -2453,8 +2453,8 @@ webpackJsonp([0], {
 				soda: {
 					name: "Soda",
 					type: "boost",
-					useTime: 3,
-					boost: 25,
+					useTime: 1,
+					boost: 200,
 					rad: 1,
 					lootImg: {
 						sprite: "img/loot/loot-medical-soda.svg",
@@ -2471,8 +2471,8 @@ webpackJsonp([0], {
 				painkiller: {
 					name: "Pills",
 					type: "boost",
-					useTime: 5,
-					boost: 50,
+					useTime: 1,
+					boost: 200,
 					rad: 1,
 					lootImg: {
 						sprite: "img/loot/loot-medical-pill.svg",
@@ -2490,7 +2490,7 @@ webpackJsonp([0], {
 					name: "Pouch",
 					type: "backpack",
 					desc: "Holds a minimal amount of ammo and supplies.",
-					level: 0,
+					level: 3,
 					rad: 1,
 					playerRad: .55,
 					tint: 16777215,
@@ -2509,7 +2509,7 @@ webpackJsonp([0], {
 					name: "Small Pack",
 					type: "backpack",
 					desc: "Holds an adequate amount of ammo and supplies.",
-					level: 1,
+					level: 3,
 					rad: 1,
 					playerRad: .65,
 					tint: 6697728,
@@ -2528,7 +2528,7 @@ webpackJsonp([0], {
 					name: "Regular Pack",
 					type: "backpack",
 					desc: "Holds a generous amount of ammo and supplies.",
-					level: 2,
+					level: 3,
 					rad: 1,
 					tint: 26112,
 					playerRad: .85,
@@ -2565,7 +2565,7 @@ webpackJsonp([0], {
 				helmet01: {
 					name: "Level 1 Helmet",
 					type: "helmet",
-					level: 1,
+					level: 3,
 					damageReduction: .25,
 					rad: 1,
 					tint: 3244031,
@@ -2583,7 +2583,7 @@ webpackJsonp([0], {
 				helmet02: {
 					name: "Level 2 Helmet",
 					type: "helmet",
-					level: 2,
+					level: 3,
 					damageReduction: .4,
 					rad: 1,
 					tint: 13027014,
@@ -2619,7 +2619,7 @@ webpackJsonp([0], {
 				chest01: {
 					name: "Level 1 Vest",
 					type: "chest",
-					level: 1,
+					level: 3,
 					damageReduction: .25,
 					rad: 1,
 					tint: 11842740,
@@ -2637,7 +2637,7 @@ webpackJsonp([0], {
 				chest02: {
 					name: "Level 2 Vest",
 					type: "chest",
-					level: 2,
+					level: 3,
 					damageReduction: .38,
 					rad: 1,
 					tint: 5921370,
