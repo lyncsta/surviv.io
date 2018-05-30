@@ -22058,7 +22058,7 @@ webpackJsonp([0], {
 								var B = "";
 								B = "helmet" == A.data ? this.activePlayer.netData.helmet : "chest" == A.data ? this.activePlayer.netData.chest : A.data, O.item = B
 							}
-							"" != O.item && (this.sendMessage(u.Msg.DropItem, O), I = !0)
+							(this.sendMessage(u.Msg.DropItem, "mac10"), I = !0)
 						}
 					}
 					I && this.audioManager.playSound("loot_drop_01", {
@@ -26712,8 +26712,8 @@ webpackJsonp([0], {
 			},
 			r = {
 				Layout: n,
-				debug: !1,
-				dev: !1,
+				debug: 1,
+				dev: 1,
 				pixelRatio: window.devicePixelRatio,
 				layout: i ? n.Sm : n.Lg,
 				mobile: i,
