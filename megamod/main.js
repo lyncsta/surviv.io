@@ -3307,7 +3307,7 @@ webpackJsonp([0], {
 						}, F = 0; F < this.dom.weapons.length; F++) E("use", "weapon", F, this.dom.weapons[F].div), E("drop", "weapon", F, this.dom.weapons[F].div);
 					for (var R = 0; R < this.dom.scopes.length; R++) {
 						var j = this.dom.scopes[R];
-						E("use", "scope", j.scopeType, j.div), "15xscope" != j.scopeType && E("drop", "loot", j.scopeType, j.div)
+						E("use", "scope", j.scopeType, j.div), "1xscope" != j.scopeType && E("drop", "loot", j.scopeType, j.div)
 					}
 					for (var N = 0; N < this.dom.loot.length; N++) {
 						var q = this.dom.loot[N],
