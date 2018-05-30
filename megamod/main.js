@@ -1,4 +1,4 @@
-5webpackJsonp([0], {
+webpackJsonp([0], {
 	"+0OL": function(e, t, a) {
 		"use strict";
 		e.exports = {
@@ -139,10 +139,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_ak47: {
 					damage: 150,
@@ -151,10 +151,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_scar: {
 					damage: 150,
@@ -163,10 +163,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_mosin: {
 					damage: 150,
@@ -175,10 +175,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_m39: {
 					damage: 150,
@@ -187,10 +187,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_shotgun: {
 					damage: 150,
@@ -199,10 +199,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_m9: {
 					damage: 150,
@@ -211,10 +211,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_ot38: {
 					damage: 150,
@@ -223,10 +223,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_deagle: {
 					damage: 150,
@@ -235,10 +235,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_mac10: {
 					damage: 150,
@@ -247,10 +247,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_ump9: {
 					damage: 150,
@@ -259,10 +259,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_vector: {
 					damage: 150,
@@ -271,10 +271,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_dp28: {
 					damage: 150,
@@ -283,10 +283,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_glock: {
 					damage: 150,
@@ -295,10 +295,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_famas: {
 					damage: 150,
@@ -307,10 +307,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_hk416: {
 					damage: 150,
@@ -319,10 +319,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_mk12: {
 					damage: 150,
@@ -331,10 +331,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				bullet_m249: {
 					damage: 150,
@@ -343,10 +343,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				shrapnel_barrel: {
 					damage: 150,
@@ -355,10 +355,10 @@
 					distance: 1100,
 					speed: 500,
 					variance: 0,
-					shrapnel: 1,
+					shrapnel: !1,
 					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					tracerWidth: .9,
+					tracerLength: .15
 				},
 				shrapnel_frag: {
 					damage: 20,
@@ -367,10 +367,10 @@
 					speed: 20,
 					distance: 8,
 					variance: 1.5,
-					shrapnel: 1,
-					tracerColor: "50AE",
-					tracerWidth: .5,
-					tracerLength: 2
+					shrapnel: !0,
+					tracerColor: "shrapnel",
+					tracerWidth: .125,
+					tracerLength: .5
 				}
 			},
 			tracerColors: {
@@ -3156,8 +3156,8 @@
 					ticker: 0
 				};
 				this.ammo = {
-					current: 10,
-					remaining: 10,
+					current: 0,
+					remaining: 0,
 					displayCurrent: !1,
 					displayRemaining: !1
 				}, this.interaction = {
@@ -3307,7 +3307,7 @@
 						}, F = 0; F < this.dom.weapons.length; F++) E("use", "weapon", F, this.dom.weapons[F].div), E("drop", "weapon", F, this.dom.weapons[F].div);
 					for (var R = 0; R < this.dom.scopes.length; R++) {
 						var j = this.dom.scopes[R];
-						E("use", "scope", j.scopeType, j.div), "1xscope" != j.scopeType && E("drop", "loot", j.scopeType, j.div) && E("drop", "loot", "15xscope", j.div)
+						E("use", "scope", j.scopeType, j.div), "8xscope" != j.scopeType && E("drop", "loot", "15xscope", j.div)
 					}
 					for (var N = 0; N < this.dom.loot.length; N++) {
 						var q = this.dom.loot[N],
@@ -17337,4 +17337,81 @@
 								break
 							}
 						}
-						n.noCeiling
+						n.noCeilingRevealTicker > 0 && (p.visionTicker = 0);
+						var y = p.visionTicker > 0,
+							b = o(p.fadeAlpha, y ? 0 : 1, e * (y ? 12 : u.fadeRate));
+						p.fadeAlpha += b;
+						for (var x = 0; x < this.imgs.length; x++) {
+							var v = this.imgs[x],
+								k = v.isCeiling ? p.fadeAlpha : 1;
+							this.positionSprite(v.sprite, k, l);
+							var _ = this.layer;
+							v.isCeiling && (this.layer == n.layer || 2 & n.layer && 1 == this.layer) && (_ |= 2), r.addPIXIObj(v.sprite, f.World, _, v.zOrd, v.zIdx)
+						}
+					}
+				}, {
+					key: "canSeeInside",
+					value: function(e, t, a, i, o) {
+						if (this.ceilingDead) return !0;
+						var r = l.intersectCircle(o, t, i.dist);
+						if (!r) return !1;
+						if (r.pen >= i.dist) return !0;
+						for (var s = [t, d.add(t, d.mul(d.perp(r.dir), i.width)), d.sub(t, d.mul(d.perp(r.dir), i.width)), d.add(t, d.mul(d.perp(r.dir), .5 * i.width)), d.sub(t, d.mul(d.perp(r.dir), .5 * i.width))], c = 0; c < s.length; c++) {
+							var m = s[c],
+								h = d.sub(m, t),
+								g = d.length(h);
+							h = g > 1e-4 ? d.div(h, g) : d.create(1, 0);
+							var f = n(e, t, h, g, 0);
+							m = d.add(t, d.mul(h, f));
+							var y = l.intersectCircle(o, m, i.dist);
+							if (y) {
+								var b = d.neg(y.dir),
+									x = n(e, m, b, i.dist, .5, a),
+									v = l.intersectSegment(o, m, d.add(m, d.mul(b, i.dist))),
+									k = v && d.length(d.sub(v.point, m)) <= x;
+								if (p.debug && u.addRay(m, b, i.dist, k ? 65280 : 16711680), k) return !0
+							}
+						}
+						return !1
+					}
+				}, {
+					key: "destroyCeilingFx",
+					value: function(e, t) {
+						for (var a = c.Defs[this.type].ceiling.destroy, i = this.surfaces[0], o = 0; o < i.colliders.length; o++) {
+							for (var n = l.toAabb(i.colliders[o]), r = 0; r < a.particleCount; r++) {
+								var s = d.create(m.random(n.min.x, n.max.x), m.random(n.min.y, n.max.y)),
+									p = d.mul(d.randomUnit(), m.random(0, 15));
+								e.addParticle(h.Defs[a.particle], this.layer, s, p)
+							}
+							break
+						}
+						t.playSound("ceiling_break_01", {
+							channel: "sfx",
+							soundPos: this.pos
+						})
+					}
+				}, {
+					key: "positionSprite",
+					value: function(e, t, a) {
+						var i = a.pointToScreen(d.add(this.pos, e.posOffset)),
+							o = a.pixels(this.scale * e.defScale);
+						e.position.set(i.x, i.y), e.scale.set(o, o), e.rotation = -this.rot + e.rotOffset, e.alpha = e.imgAlpha * t
+					}
+				}, {
+					key: "render",
+					value: function(e) {}
+				}]), e
+			}();
+		e.exports = y
+	},
+	"O/82": function(e, t, a) {
+		"use strict";
+		var i = {
+			"@metadata": {
+				"last-updated": "2018-02-20",
+				locale: "it"
+			},
+			"word-order": "svo",
+			"index-slogan": "2d Battle Royale",
+			"index-region": "Nazione",
+			"index-north-america": "America d
