@@ -3130,30 +3130,30 @@ webpackJsonp([0], {
 				this.weapons = [];
 				for (var a = 0; a < g.WeaponSlot.Count; a++) this.weapons[a] = {
 					slot: a,
-					name: "MP5",
-					ammo: 10,
-					equipped: 1,
-					selectable: 1,
+					name: "",
+					ammo: 0,
+					equipped: !1,
+					selectable: !1,
 					opacity: 0,
 					width: 0,
 					ticker: 0
 				};
 				this.ammo = {
-					current: 10,
-					remaining: 10,
-					displayCurrent: 1,
-					displayRemaining: 1
+					current: 0,
+					remaining: 0,
+					displayCurrent: !1,
+					displayRemaining: !1
 				}, this.interaction = {
 					type: P.None,
 					text: "",
 					key: "",
 					usable: !1
-				}, this.scopes = ["15xscope"];
+				}, this.scopes = [];
 				for (var i = m(), n = 0; n < i.length; n++) this.scopes.push({
 					type: i[n],
-					visible: 11,
+					visible: !1,
 					equipped: !1,
-					selectable: 11
+					selectable: !1
 				});
 				this.loot = [];
 				for (var r = d(), s = 0; s < r.length; s++) this.loot.push({
@@ -3172,7 +3172,7 @@ webpackJsonp([0], {
 					width: 0,
 					ticker: 0
 				});
-				this.health = 200, this.boost = 100, this.downed = !1
+				this.health = 100, this.boost = 40, this.downed = 1
 			},
 			z = function() {
 				function e(t) {
@@ -3290,7 +3290,7 @@ webpackJsonp([0], {
 						}, F = 0; F < this.dom.weapons.length; F++) E("use", "weapon", F, this.dom.weapons[F].div), E("drop", "weapon", F, this.dom.weapons[F].div);
 					for (var R = 0; R < this.dom.scopes.length; R++) {
 						var j = this.dom.scopes[R];
-						E("use", "scope", j.scopeType, j.div), "15xscope" != j.scopeType && E("drop", "loot", "15xscope", j.div)
+						E("use", "scope", j.scopeType, j.div), "1xscope" != j.scopeType && E("drop", "loot", j.scopeType, j.div)
 					}
 					for (var N = 0; N < this.dom.loot.length; N++) {
 						var q = this.dom.loot[N],
@@ -26712,8 +26712,8 @@ webpackJsonp([0], {
 			},
 			r = {
 				Layout: n,
-				debug: 1,
-				dev: 1,
+				debug: !1,
+				dev: !1,
 				pixelRatio: window.devicePixelRatio,
 				layout: i ? n.Sm : n.Lg,
 				mobile: i,
