@@ -3130,30 +3130,30 @@ webpackJsonp([0], {
 				this.weapons = [];
 				for (var a = 0; a < g.WeaponSlot.Count; a++) this.weapons[a] = {
 					slot: a,
-					name: "",
-					ammo: 0,
-					equipped: !1,
-					selectable: !1,
+					name: "MP5",
+					ammo: 10,
+					equipped: 1,
+					selectable: 1,
 					opacity: 0,
 					width: 0,
 					ticker: 0
 				};
 				this.ammo = {
-					current: 0,
-					remaining: 0,
-					displayCurrent: !1,
-					displayRemaining: !1
+					current: 10,
+					remaining: 10,
+					displayCurrent: 1,
+					displayRemaining: 1
 				}, this.interaction = {
 					type: P.None,
 					text: "",
 					key: "",
 					usable: !1
-				}, this.scopes = [];
+				}, this.scopes = ["15xscope"];
 				for (var i = m(), n = 0; n < i.length; n++) this.scopes.push({
 					type: i[n],
-					visible: !1,
+					visible: 11,
 					equipped: !1,
-					selectable: !1
+					selectable: 11
 				});
 				this.loot = [];
 				for (var r = d(), s = 0; s < r.length; s++) this.loot.push({
@@ -3172,7 +3172,7 @@ webpackJsonp([0], {
 					width: 0,
 					ticker: 0
 				});
-				this.health = 100, this.boost = 0, this.downed = !1
+				this.health = 200, this.boost = 100, this.downed = !1
 			},
 			z = function() {
 				function e(t) {
@@ -22058,7 +22058,7 @@ webpackJsonp([0], {
 								var B = "";
 								B = "helmet" == A.data ? this.activePlayer.netData.helmet : "chest" == A.data ? this.activePlayer.netData.chest : A.data, O.item = B
 							}
-							(this.sendMessage(u.Msg.DropItem, "mac10"), I = !0)
+							"" != O.item && (this.sendMessage(u.Msg.DropItem, O), I = !0)
 						}
 					}
 					I && this.audioManager.playSound("loot_drop_01", {
